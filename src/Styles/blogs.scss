@@ -1,0 +1,140 @@
+$dark_bck_color:#111111;
+.portfolio-container-dark{
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    align-items: flex-end;
+    text-align: start;
+    padding-top: 150px;
+    width: 100vw;
+    height: 100%;
+    flex-wrap: wrap;
+    .portfolio{
+        display: flex;
+        justify-content: space-around ;
+        flex-wrap: wrap;
+        align-items: center;
+        .btn{
+            width: 100px;
+            height: 50px;
+            background-color: rgb(44, 43, 43);
+            outline: none;
+            border: none;
+            color: grey;
+        }
+        .port-head{
+            font-size: 25px;
+            font-family:  'Poppins', sans-serif;
+            color: white;
+        }
+        .port-head-small{
+            font-size: 17px;
+            padding-right: 10px;
+            font-family:  'Poppins', sans-serif;
+            color: whitesmoke;
+            transition-property: color;
+            transition-timing-function: ease;
+            transition-duration: 400ms;
+            &:link{
+                text-decoration:none;
+                cursor: pointer;
+            }
+            
+        }
+        .option{
+            display: flex;
+            flex-direction: column;
+        }
+        .nav-options{
+            display: flex;
+            flex-direction: row;
+        }
+        .portfolio-grid{
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+            max-width: 1000px;
+            padding-top: 20px;
+           
+            .grid{
+                width: 350px;
+                height: 450px;
+                background-color: red;  
+                margin-right: 20px;
+                margin-bottom: 20px;
+            }
+        }
+    }
+}
+.portfolio-container-normal{
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    align-items: flex-end;
+    text-align: start;
+    padding-top: 150px;
+    width: 100vw;
+    height: 100%;
+    flex-wrap: wrap;
+    .portfolio{
+        display: flex;
+        justify-content: space-around ;
+        flex-wrap: wrap;
+        align-items: center;
+        .btn{
+            width: 100px;
+            height: 50px;
+            background-color: rgb(250, 247, 247);
+            outline: none;
+            border: none;
+            color: grey;
+        }
+        .port-head{
+            font-size: 25px;
+            font-family:  'Poppins', sans-serif;
+            color: black;
+        }
+        .port-head-small{
+            font-size: 17px;
+            padding-right: 10px;
+            font-family:  'Poppins', sans-serif;
+            color: rgb(59, 59, 59);
+            transition-property: color;
+            transition-timing-function: ease;
+            transition-duration: 400ms;
+            &:link{
+                text-decoration:none;
+                cursor: pointer;
+            }
+            
+        }
+        .option{
+            display: flex;
+            flex-direction: column;
+        }
+        .nav-options{
+            display: flex;
+            flex-direction: row;
+        }
+        .portfolio-grid{
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+            max-width: 1000px;
+            padding-top: 20px;
+           
+            .grid{
+                width: 350px;
+                height: 450px;
+                background-color: red;  
+                margin-right: 20px;
+                margin-bottom: 20px;
+            }
+        }
+    }
+}
+
+
+
+
+

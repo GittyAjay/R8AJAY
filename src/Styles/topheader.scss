@@ -1,0 +1,40 @@
+
+.top-container{
+  display: flex;
+  flex-direction: row;
+  background-color: white;
+  width: 100vw;
+  height: 70px;
+  justify-content: space-between;
+  align-items: center;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  border-bottom: 0.2px rgb(235, 234, 234) solid;
+  .nav{
+      display: flex;
+      flex-direction: row;
+  }
+  .font-style{
+    color: black;
+    font-family:  'Poppins', sans-serif;
+    &.top-head{
+      padding: 10px;  
+      font-size: 20px;
+      letter-spacing: 5px;
+    }
+  } 
+  .icon{
+      opacity: 1;
+      padding-right: 20px;
+      transition-property: opacity;
+      transition-duration: 300ms;
+      &:hover{
+        cursor: pointer;
+        opacity: 0.6;
+      }
+    }   
+}
+
+

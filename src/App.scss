@@ -1,0 +1,26 @@
+$dark_bck_color:#111111;
+$normal_bck_color:white;
+.App-dark{
+ background-color: $dark_bck_color;
+}
+.App-normal{
+   background-color: $normal_bck_color;
+  }
+.color-mode{
+   position: absolute;
+   bottom: 0;
+   right: 0;
+   padding: 20px;
+   position: fixed;
+}
+.App-desktop{
+   display: flex;
+   flex-direction: row;
+}
+.App-mobile{
+   display: flex;
+   flex-direction: column;
+}
+
+
+

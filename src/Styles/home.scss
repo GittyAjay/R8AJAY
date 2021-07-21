@@ -1,0 +1,98 @@
+.home-container-dark{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+    .profile{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        // background-color: red;
+    }
+    .bio{
+        color: white;
+        max-width: 600px;
+        padding: 40px;
+        .big-head{
+            font-family: 'Archivo Black', sans-serif;
+            font-size: 64px;
+            margin-bottom: -10px; 
+        }
+        .intro{
+            font-family:  'Poppins', sans-serif;
+            font-size: 17px;
+            font-style: italic;
+            color: rgb(190, 188, 188);
+        }
+        .social{
+            display: flex;
+            flex-direction: row;
+            .icon{
+                padding-right: 10px;
+                opacity: 1;
+                transition-duration: 400ms;
+                transition-property: opacity;
+                transition-timing-function:ease;
+                &:hover{
+                    opacity: 0.6;
+                    cursor: pointer;
+                }
+            }
+         }
+    }
+}
+.home-container-normal{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+    .profile{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        // background-color: red;
+       
+    }
+    .bio{
+        color: black;
+        max-width: 600px;
+        padding: 40px;
+        .big-head{
+            font-family: 'Archivo Black', sans-serif;
+            font-size: 64px;
+            margin-bottom: -10px; 
+        }
+        .intro{
+            font-family:  'Poppins', sans-serif;
+            font-size: 17px;
+            font-style: italic;
+            color: rgb(29, 28, 28);
+        }
+        .social{
+            display: flex;
+            flex-direction: row;
+            .icon{
+                padding-right: 10px;
+                opacity: 1;
+                transition-duration: 400ms;
+                transition-property: opacity;
+                transition-timing-function:ease;
+                &:hover{
+                    opacity: 0.6;
+                    cursor: pointer;
+                }
+            }
+         }
+    }
+}
+
+
+
+
+

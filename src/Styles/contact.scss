@@ -1,0 +1,134 @@
+$dark_bck_color:#111111;
+.contact-container-dark{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: start;
+    padding-top: 150px;
+    width: 100%;
+    height: 100%;
+    flex-wrap: wrap;
+    .contact{
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start ;
+        flex-wrap: wrap;
+        align-items: flex-start;
+        .btn{
+            width: 100px;
+            height: 50px;
+            background-color: rgb(44, 43, 43);
+            outline: none;
+            border: none;
+            color: grey;
+        }
+        .contact-head{
+            font-size: 25px;
+            font-family:  'Poppins', sans-serif;
+            color: white;
+        }
+        input{
+            outline-color: white;
+            background-color: black;
+            border: none;
+           text-indent: 5px;
+            margin-top: 20px;
+            height: 35px;
+            width: 100%;
+        }
+        textarea{
+            outline-color: white;
+            background-color: black;
+            outline-width: 1px;
+            text-indent: 5px;
+            border: none;
+            height: 60px;
+            width: 100%;
+            margin-top: 20px;
+        }
+        .submit__button{
+            outline: none;
+            border: none;
+            font-style: italic;
+            margin-top: 20px;
+            margin-bottom: 20px;
+            height: 50px;
+            width: 150px;
+            transition-property:letter-spacing,transform ;
+            transition-duration: 400ms;
+            transition-timing-function: ease-in;
+            &:hover{
+                letter-spacing: 5px;
+               
+            }
+            &:active{
+                transform: scale(0.9);
+            }
+        }
+    }
+}
+.contact-container-normal{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: start;
+    padding-top: 150px;
+    width: 100vw;
+    height: 100%;
+    flex-wrap: wrap;
+    .contact{
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start ;
+        flex-wrap: wrap;
+        align-items: flex-start;
+        .btn{
+            width: 100px;
+            height: 50px;
+            background-color: rgb(211, 208, 208);
+            outline: none;
+            border: none;
+            color: grey;
+        }
+        .contact-head{
+            font-size: 25px;
+            font-family:  'Poppins', sans-serif;
+            color: black;
+        }
+        input{
+            text-indent: 5px;
+            margin-top: 20px;
+            height: 35px;
+            width: 100%;
+        }
+        textarea{
+            text-indent: 5px;
+         height: 60px;
+         width: 100%;
+         margin-top: 20px;
+        }
+        .submit__button{
+            outline: none;
+            border: none;
+            font-style: italic;
+            margin-top: 20px;
+            margin-bottom: 20px;
+            height: 50px;
+            width: 150px;
+            transition-property:letter-spacing,transform ;
+            transition-duration: 400ms;
+            transition-timing-function: ease-in;
+            &:hover{
+                letter-spacing: 5px;
+               
+            }
+            &:active{
+                transform: scale(0.9);
+            }
+        }
+       
+    }
+ 
+}
