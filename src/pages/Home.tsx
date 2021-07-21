@@ -10,14 +10,14 @@ import { darkIcons, normalIcons } from '../Values';
 function Home(props: { color: String }) {
     return (
         <>
-
             {
                 props.color == "black" ? <div className="home-container-dark">
                     <div className="profile">
                         <img src={greyImg} alt="img" style={{ width: 200, height: 200, borderRadius: 100, objectFit: 'cover' }} />
                         <div className="bio">
                             <h1 className="big-head">AJAY  PANDEY</h1>
-                            <p className="intro">Creative Photographer based in New York and happy to travel all over Europe to capture photos.</p>
+                            <p className="intro">                            Hi, I'm Ajay Kumar Pandey, a Full Stack Developer 🚀 from India, currently, I'm a Project Collaborator 🙍🏽‍♂️ Mentor 👨🏽‍💼 and a Former Research Intern @OSIZONE. Beside's programming, I enjoy eating food,music and traveling.
+                            </p>
                             <div className="social">
                                 <IconContext.Provider value={darkIcons}>
                                     <AiOutlineGithub className="icon" onClick={res => window.open("https://github.com/GittyAjay", "_blank")} />
@@ -34,7 +34,8 @@ function Home(props: { color: String }) {
                         <img src={normalImg} alt="img" style={{ width: 200, height: 200, borderRadius: 100, objectFit: 'cover' }} />
                         <div className="bio">
                             <h1 className="big-head">AJAY  PANDEY</h1>
-                            <p className="intro">Creative Photographer based in New York and happy to travel all over Europe to capture photos.</p>
+                            <p className="intro"> Hi, I'm Ajay Kumar Pandey, a Full Stack Developer 🚀 from India, currently, I'm a Project Collaborator 🙍🏽‍♂️ Mentor 👨🏽‍💼 and a Former Research Intern @OSIZONE. Beside's programming, I enjoy eating food,music and traveling.
+                            </p>
                             <div className="social">
                                 <IconContext.Provider value={normalIcons}>
                                     <AiOutlineGithub className="icon" onClick={res => window.open("https://github.com/GittyAjay", "_blank")} />

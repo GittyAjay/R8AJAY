@@ -6,22 +6,24 @@ import { FaUserAlt } from 'react-icons/fa';
 import { BsFillBriefcaseFill } from 'react-icons/bs';
 import { RiFileList3Fill } from 'react-icons/ri';
 import { MdEmail } from 'react-icons/md';
+import { normalIcons } from '../../Values/index'
 function TopHeader(props: { color: string, func: Function }) {
-
     return (
         <>
-            <div className="top-container">
-                <div>
-                    <h2 className="font-style top-head">R8AJAY</h2>
+            <IconContext.Provider value={normalIcons}>
+                <div className="top-container">
+                    <div>
+                        <h2 className="font-style top-head">R8AJAY</h2>
+                    </div>
+                    <div className="nav">
+                        <AiFillHome className="icon" onClick={() => props.func("Home")} />
+                        <FaUserAlt className="icon" onClick={() => props.func("About")} />
+                        <BsFillBriefcaseFill className="icon" onClick={() => props.func("Portfolio")} />
+                        <RiFileList3Fill className="icon" onClick={() => props.func("Blogs")} />
+                        <MdEmail className="icon" onClick={() => props.func("Contact")} />
+                    </div>
                 </div>
-                <div className="nav">
-                    <AiFillHome className="icon" color="black" size={18} onClick={() => props.func("Home")} />
-                    <FaUserAlt className="icon" color="black" size={18} onClick={() => props.func("About")} />
-                    <BsFillBriefcaseFill className="icon" color="black" size={18} onClick={() => props.func("Portfolio")} />
-                    <RiFileList3Fill className="icon" color="black" size={18} onClick={() => props.func("Blogs")} />
-                    <MdEmail className="icon" color="black" size={18} onClick={() => props.func("Contact")} />
-                </div>
-            </div>
+            </IconContext.Provider>
         </>
     )
 }

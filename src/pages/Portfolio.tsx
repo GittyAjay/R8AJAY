@@ -22,9 +22,9 @@ function Portfolio(props: { color: String }) {
                             <a className="port-head-small" href="#" onClick={visitedLink}>AI</a>
                         </div>
                         <div className="portfolio-grid">
-                            <iframe src="https://www.youtube.com/embed/hGY6a6xTJF8" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" style={{ width: 500, height: 400, marginBottom: 20 }} allowFullScreen></iframe>
+                            <iframe src="https://www.youtube.com/embed/hGY6a6xTJF8" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" style={{ width: 500, height: 400, marginRight: 30, marginBottom: 30 }} allowFullScreen></iframe>
 
-                            <iframe src="https://www.youtube.com/embed/4JXNod4hFoA" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" style={{ width: 500, height: 400, marginBottom: 20 }} allowFullScreen></iframe>
+                            <iframe src="https://www.youtube.com/embed/4JXNod4hFoA" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" style={{ width: 500, height: 400, marginRight: 30, marginBottom: 30 }} allowFullScreen></iframe>
 
                         </div>
 
@@ -47,7 +47,6 @@ function Portfolio(props: { color: String }) {
                             <iframe src="https://www.youtube.com/embed/hGY6a6xTJF8" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" style={{ width: 500, height: 400, marginRight: 30, marginBottom: 30 }} allowFullScreen></iframe>
 
                             <iframe src="https://www.youtube.com/embed/4JXNod4hFoA" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" style={{ width: 500, height: 400, marginRight: 30, marginBottom: 30 }} allowFullScreen></iframe>
-
 
                         </div>
 

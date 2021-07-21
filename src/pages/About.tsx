@@ -12,7 +12,7 @@ function About(props: { color: String }) {
                     <div className="bio1">
                         <p style={{ color: 'white', fontSize: 25, fontFamily: 'Poppins, sans-serif' }}>Ajay & Developer</p>
                         <p style={{ color: 'white', maxWidth: 600, fontFamily: 'Poppins, sans-serif' }}>
-                            Hello, I am a creative photographer based in New York and happy to travel all over Europe to capture your big day in candid and authentic photos. I will create a lasting memory of the people.
+                            Hi, I'm Ajay Kumar Pandey, a Full Stack Developer 🚀 from India, currently, I'm a Project Collaborator 🙍🏽‍♂️ Mentor 👨🏽‍💼 and a Former Research Intern @OSIZONE. Beside's programming, I enjoy eating food,music and traveling.
                         </p>
                         <button className="learn-more-btn">Learn More</button>
                     </div>
@@ -48,7 +48,7 @@ function About(props: { color: String }) {
                         <div className="bio1">
                             <p style={{ color: 'black', fontSize: 25, fontFamily: 'Poppins, sans-serif' }}>Ajay & Developer</p>
                             <p style={{ color: 'black', maxWidth: 600, fontFamily: 'Poppins, sans-serif' }}>
-                                Hello, I am a creative photographer based in New York and happy to travel all over Europe to capture your big day in candid and authentic photos. I will create a lasting memory of the people.
+                                Hi, I'm Ajay Kumar Pandey, a Full Stack Developer 🚀 from India, currently, I'm a Project Collaborator 🙍🏽‍♂️ Mentor 👨🏽‍💼 and a Former Research Intern @OSIZONE. Beside's programming, I enjoy eating food,music and traveling.
                             </p>
                             <button className="learn-more-btn">Learn More</button>
                         </div>
